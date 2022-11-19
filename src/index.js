@@ -39,7 +39,8 @@ readline.question(`Hey ${os.userInfo().username}, enter your bot's token: `, tok
 			footer: {
 				text: 'If you are careful, go directly to the Discord site instead of clicking on my link, although I reassure you, it is safe. Be careful where you click.'
 			}
-		})
+		});
+
 		interaction.reply({embeds: [embed]});
 	});
 });
